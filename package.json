@@ -2,7 +2,7 @@
   "name": "typwrtr",
   "version": "1.0.0",
   "description": "Typewriter effect written in pure JavaScript.",
-  "main": "index.js",
+  "main": "dist/typwrtr.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
