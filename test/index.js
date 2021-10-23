@@ -1,9 +1,13 @@
-// import assert from 'assert';
+import assert from 'assert';
+import Typwrtr from '../src/index';
 
-// describe('Array', () => {
-//   describe('#indexOf()', () => {
-//     it('should return -1 when the value is not present', () => {
-//       assert.equal([1, 2, 3].indexOf(4), -1);
-//     });
-//   });
-// });
+const testSamples = ["It was a bright cold day in April, and the clocks were striking thirteen.", "It was a pleasure to burn."];
+
+describe('Array', () => {
+    it('should create Typwrtr object', () => {
+      assert.equal(() => {
+        let typwrtr = new Typwrtr(testSamples);
+        return typwrtr;
+      }, true)
+    })
+})
